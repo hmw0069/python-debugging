@@ -29,7 +29,9 @@ def area_of_rectangle(height, width = None):
     >>> area_of_rectangle (7, 2)
     14
     """
+#    import pdb; pdb.set_trace()
     if width:
+        height = int(height)
         width = height
     area = height * width
     return area
